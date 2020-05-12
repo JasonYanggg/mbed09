@@ -7,7 +7,7 @@
  */
 
 // Use the RPC enabled wrapped class  -see RpcClasses.h for more info
-RpcDigitalOut myled(LED1, "myled");
+RpcDigitalOut myled1(LED1, "myled1");
 RpcDigitalOut myled2(LED2, "myled2");
 RpcDigitalOut myled3(LED3, "myled3");
 Serial pc(USBTX, USBRX);
